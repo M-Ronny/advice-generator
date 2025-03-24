@@ -5,7 +5,7 @@ function getAdvice() {
     .then(res => res.json()) // parse response as JSON
     .then(data => {
       console.log(data)
-      document.querySelector('h2').innerText = data.slip.advice
+      document.querySelector('p').innerText = data.slip.advice
     })
     .catch(err => {
         console.log(`error ${err}`)
