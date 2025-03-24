@@ -14,9 +14,41 @@
     display: block;
     margin: 0 auto;
   }
-  
+
+  body {
+    text-align: center;
+  }
+
+  button {
+    margin: 25px 0;
+  }
+
   
   /******************************************
   /* ADDITIONAL STYLES
   /*******************************************/
-  
+ p, h2{
+    font-size: 2em;
+ }
+
+ button:hover {
+    background-color: yellow;
+    color: black;
+ }
+
+ button {
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 20%;
+    font-weight: bold;
+    font-size: 25px;
+ }
+
+ h1 {
+    font-size: 4em;
+ }
+
+ p {
+    padding: 0 5%;
+ }
